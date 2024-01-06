@@ -14,7 +14,7 @@ Website style guide containing my favorite Graidents, Fonts and text styles! NOT
 
 ### Installing
 
-Visit! ([https://camxxlol.github.io/Website-Style-Guide/])
+Visit! (https://camxxlol.github.io/Website-Style-Guide/)
 
 ### Executing program
 
@@ -31,8 +31,8 @@ camxxlol@gmail.com
 
 Contributors names and contact info
 
-ex. Cameron Fields  
-ex. [@Camxxloll]([https://twitter.com/Camxxloll])
+Cameron Fields  
+[@Camxxloll]([https://twitter.com/Camxxloll])
 
 ## Version History
 * 0.1
