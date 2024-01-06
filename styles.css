@@ -1,0 +1,295 @@
+/* Web Background */
+html{
+    background-color:   #000000   !important;
+}
+
+
+    /* Nav Bar */
+        #menu {
+            background: #000000;
+            height: 45px;
+            border-radius: 10px;
+            border: 4px solid #6D6D6D;
+            display: inline-block;
+            width: 123px;
+            position: relative;
+            left: 873px;
+            bottom: 30px;
+        }
+        #menu ul, #menu li {
+            margin: 0 auto;
+            padding: 0;
+            list-style: none
+        }
+            #menu ul {
+                width: 100%;
+                text-align: center;
+            }
+                #menu li {
+                display: inline-block;
+                position: relative;
+            }
+                #menu a {
+                display: block;
+                line-height: 37px;
+                padding: 0 14px;
+                text-decoration: none;
+                color: #FFFFFF;
+                font-size: 25px;
+            }
+                #menu a.dropdown-arrow:after {
+                content: "\25BE";
+                margin-left: 5px;
+            }
+                #menu li a:hover {
+                color: #0099CC;
+                background: #ffffff;
+                border-radius: 30px;
+            }
+                #menu input {
+                display: none;
+                margin: 0;
+                padding: 0;
+                height: 45px;
+                width: 100%;
+                opacity: 0;
+                cursor: pointer
+            }
+                #menu label {
+                display: none;
+                line-height: 37px;
+                text-align: center;
+                position: absolute;
+                left: 35px
+            }
+                #menu label:before {
+                font-size: 1.6em;
+                color: #FFFFFF;
+                content: "\2261"; 
+                margin-left: 20px;
+            }
+                #menu ul.sub-menus{
+                height: auto;
+                overflow: hidden;
+                width: 170px;
+                background: #000000;
+                position: absolute;
+                z-index: 99;
+                display: none;
+            }
+                #menu ul.sub-menus li {
+                display: block;
+                text-align: left;
+                width: 100%;
+            }
+             #menu ul.sub-menus a {
+             color: #FFFFFF;
+            font-size: 16px;
+            }
+         #menu li:hover ul.sub-menus {
+                    display: block
+                }
+        #menu ul.sub-menus a:hover{
+            background: #F2F2F2;
+            color: #0099CC;
+        }
+    @media screen and (max-width: 800px){
+        #menu {position:relative}
+        #menu ul {background:#000000;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;text-align:left;}
+        #menu ul.sub-menus {width:100%;position:static;}
+        #menu ul.sub-menus a {padding-left:30px;}
+        #menu li {display:block;float:none;width:auto;}
+        #menu input, #menu label {position:absolute;top:0;left:0;display:block}
+        #menu input {z-index:4}
+        #menu input:checked + label {color:#FFFFFF}
+        #menu input:checked + label:before {content:"\00d7"}
+        #menu input:checked ~ ul {display:block}
+    }
+
+    /* Website Header */
+     .web-head { 
+        text-align: center;
+        color: white;
+        height: 100px;
+        padding-top: 80px;
+        border-radius: 30px;
+        font-family: "Bowlby One SC";
+        font-style: italic;
+    }
+
+
+    /* Graident Backgrounds */
+
+    .graident-1 {
+        line-height: 25px;
+        border: solid 2px white;
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(228,45,253,1) 100%);
+    }
+
+        .graident-2 {
+            line-height: 25px;
+            border: solid 2px white;
+            background: rgb(0,0,0);
+            background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(58,253,45,1) 100%);
+        }
+
+            .graident-3 {
+                line-height: 25px;
+                border: solid 2px white;
+                background: rgb(0,239,255);
+                background: linear-gradient(0deg, rgba(0,239,255,1) 0%, rgba(0,0,0,1) 100%);
+            }
+
+                .graident-4 {
+                    line-height: 25px;
+                    border: solid 2px white;
+                    background: rgb(0,0,0);
+                    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 100%);
+
+                }
+
+                    .graident-5 {
+                        line-height: 25px;
+                        border: solid 2px white;
+                        background: rgb(0,0,0);
+                        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(243,255,0,1) 100%);
+                    }
+
+                        .graident-6 {
+                            line-height: 25px;
+                            border: solid 2px white;
+                            background: rgb(0,0,0);
+                            background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,147,0,1) 100%);
+                        }
+
+    /* Gradient "Text" font */
+    .graident p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+
+
+    /* Main Graident Section Control */
+
+
+    .colors-head {
+        text-decoration: underline;
+        font-family: "Bowlby One SC";
+    }
+
+        h3 {
+            font-weight: bold;
+            font-family: "Bebas Neue";
+            text-decoration: underline 3px;
+            letter-spacing: 3px;
+
+        }
+
+            .graidents-main {   
+            border: 6px solid white; 
+                border-radius: 10px; 
+                border-style: double; 
+                padding: 0px; 
+                margin: 0px 100px 100px 100px; 
+                color: white; 
+                text-align: center; 
+                text-shadow: 3px 1px 3px #000000; 
+                background-color: black;
+            }
+
+/* Favorite Fonts */
+            
+.fonts-head {
+    color: white;
+    text-decoration: underline;
+    font-family: "Bowlby One SC";
+}
+                /* Rubik Scribble */
+                    .normal-rubik{
+                        font-family: "Rubik Scribble";
+                        color: white;
+                        font-size: x-large;
+                    }
+
+                        .bold-rubik {
+                            font-weight: bold;
+                            font-family: "Rubik Scribble";
+                            font-size: x-large;
+                        }
+
+                            .itallic-rubik{
+                                font-style: italic;
+                                font-family: "Rubik Scribble";
+                                font-size: x-large;
+                            }
+            /* Bebas Neue */
+                    .bebas{
+                        font-family: "Bebas Neue";
+                        color: white;
+                        font-size: x-large;
+                    }
+
+                        .bold-bebas {
+                            font-weight: bold;
+                        }
+
+                            .itallic-bebas{
+                                font-style: italic;
+                            }
+            /* Bowlby One SC */
+                    
+                    .bowlby{
+                        font-family: "Bowlby One SC";
+                        color: white;
+                        font-size: x-large;
+                    }
+
+                        .bold-bowlby {
+                            font-weight: bold;
+                            
+                        }
+
+                            .itallic-bowlby{
+                                font-style: italic;
+                            }
+
+/* Text Styles */
+
+.text-styles{
+    font-family: "Bowlby One SC";
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+    .h1-style{
+        text-decoration: underline;
+    }
+
+    .p-style {
+        text-decoration: underline;
+    }
+
+    .h2-style{
+        text-decoration: underline;
+    }
+
+/* footer */
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: "Rubik Glitch";
+    letter-spacing: 5px;
+    
+}
+
+
+footer a :active {
+    color: red
+}
+
+footer a :hover {
+    color: white;
+}
