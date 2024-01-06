@@ -4,7 +4,7 @@ A simple website style guide featuring some of my favorite Graidents, Fonts and 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Website style guide containing my favorite Graidents, Fonts and text styles! NOT optimized for celluar devices!
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ An in-depth paragraph about your project and overview of use.
 
 ### Installing
 
-
+Visit! ([https://camxxlol.github.io/Website-Style-Guide/])
 
 ### Executing program
 
@@ -23,9 +23,9 @@ An in-depth paragraph about your project and overview of use.
 ## Help
 
 Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Contact me via Twitter or email!
+https://twitter.com/Camxxloll
+camxxlol@gmail.com
 
 ## Authors
 
@@ -35,7 +35,6 @@ ex. Cameron Fields
 ex. [@Camxxloll]([https://twitter.com/Camxxloll])
 
 ## Version History
-
 * 0.1
     * Initial Release
 
@@ -45,8 +44,5 @@ ex. [@Camxxloll]([https://twitter.com/Camxxloll])
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [Example Website]([https://content.codecademy.com/PRO/independent-practice-projects/website-design-system/example/index.html])
+* [Codecademy](https://www.codecademy.com)
